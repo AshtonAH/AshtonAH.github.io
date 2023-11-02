@@ -11,8 +11,21 @@ h1 {
   padding: 10px;
   margin: 10px;
   background: grey;
+  border-radius: 20px;
 }
 .assign img {
   width: 800px;
   padding: 10px;
+  border: 2px solid midnightblue;
 }
+
+a {
+  text-decoration: none;
+  color: midnightblue;
+}
+
+Explain a:hover, img:hover, h1:hover
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
